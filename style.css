@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --scheme:dark light;
+  color-scheme: var(--scheme);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#container {
+  height: 100vh; /* asegurarse que ocupe toda la altura del viewport */
+  width: 100vw; /* asegurarse que ocupe todo el ancho del viewport */
+}
+
+#preview {
+  flex: 1; /* ocupa la mitad del contenedor */
+  padding: 20px;
+  overflow-y: auto; /* permitir scroll si el contenido es largo */
+  border-left: 1px solid #cccccc1f; 
+}
+
+#editor {
+  height: 100vh;
+  padding: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  line-height: 1.5;
+  border-right: 1px solid #cccccc1f; 
+  overflow-y: auto; /* permitir scroll si el contenido es largo */
+}
+
+pre {
+  border: 0.5px solid rgb(80, 79, 79);
+  border-radius: 5px;
+  overflow: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 10px 1fr;
+}
+
+.vertical-gutter {
+  grid-area: 1/2/4/2;
+  border: solid 1px #686867;
+  background: url("public/arrow.svg") no-repeat;
+  background-position: center;
+
+}
