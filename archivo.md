@@ -8,7 +8,7 @@ donde F′(x)=f(x)F'(x) = f(x) y CC es una constante de integración.
 • Integral definida:
 Representa el área bajo una curva entre dos puntos aa y bb:
 
-∫abf(x)dx.\int_a^b f(x) dx. 
+```math ∫abf(x)dx.\int_a^b f(x) dx.``` 
 
 • Teorema fundamental del cálculo:
 Conecta derivadas e integrales:
