@@ -1,7 +1,7 @@
 Es una familia de funciones primitivas cuya derivada es igual a la función original. Se denota como:
 
 
-$` \∫f(x)dx=F(x)+C,\int f(x) dx = F(x) + C `$, 
+```math \∫f(x)dx=F(x)+C,\int f(x) dx = F(x) + C ```, 
 
 donde F′(x)=f(x)F'(x) = f(x) y CC es una constante de integración.
 
